@@ -1,7 +1,6 @@
 {
   "name": "@natsuneko-laboratory/lazy",
   "version": "1.0.0",
-  "private": true,
   "description": "A tiny lazy initialization utility for TypeScript.",
   "keywords": [],
   "license": "MIT",
