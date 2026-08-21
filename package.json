@@ -1,6 +1,6 @@
 {
   "name": "@natsuneko-laboratory/lazy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny lazy initialization utility for TypeScript.",
   "keywords": [],
   "license": "MIT",
@@ -9,6 +9,13 @@
     "type": "git",
     "url": "https://github.com/mika-f/lazy"
   },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublishOnly": "pnpm run build",
     "build": "tsc",
