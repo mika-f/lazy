@@ -1,6 +1,6 @@
 {
   "name": "@natsuneko-laboratory/lazy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tiny lazy initialization utility for TypeScript.",
   "keywords": [],
   "license": "MIT",
@@ -13,7 +13,7 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "main": "./dist/index.js"
+      "default": "./dist/index.js"
     }
   },
   "files": [
